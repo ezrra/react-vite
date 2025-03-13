@@ -4,7 +4,7 @@ React + Vite
 ## 🚀 Features
 
 - Using Vite
-- Pratice: useReduce, useMemo and useCallback
+- Practice: useReduce, useMemo and useCallback
 
 # 🛠️ Technologies Used
 - React
