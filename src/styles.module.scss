@@ -1,0 +1,41 @@
+@use "sass:color";
+
+$primary-color: #007bff;
+$border-radius: 8px;
+
+button {
+  margin-left: 5px;
+}
+
+.input {
+  padding: 10px;
+  border: 2px solid $primary-color;
+  border-radius: $border-radius;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+
+  &:focus {
+    border-color: darken($primary-color, 10%);
+    box-shadow: 0 0 5px rgba($primary-color, 0.5);
+  }
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 8px 12px;
+    transition: background 0.3s;
+
+    &:hover {
+      background: color.adjust($primary-color, $lightness: -10%);
+      cursor: pointer;
+    }
+
+    button {
+      margin-left: 5px;
+    }
+  }
+}

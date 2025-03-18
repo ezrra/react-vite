@@ -18,3 +18,7 @@ cd react-vite
 npm install
 npm run dev
 ```
+
+# 📸 Screenshots
+
+![Screenshot](src/assets/screenshot.png)
