@@ -9,6 +9,7 @@ React + Vite
 # 🛠️ Technologies Used
 - React
 - Vite
+- Sass
 
 # 📦 Installation
 
