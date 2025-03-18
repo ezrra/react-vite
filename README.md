@@ -13,8 +13,8 @@ React + Vite
 # 📦 Installation
 
 ```
-git clone
-cd
+git clone https://github.com/ezrra/react-vite.git
+cd react-vite
 npm install
 npm run dev
 ```
